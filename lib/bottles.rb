@@ -9,10 +9,7 @@ class Bottles
   end
 
   def verse(bottles)
-    <<-VERSE
-#{first_line(bottles)}
-#{second_line(bottles)}
-VERSE
+    "#{first_line(bottles)}\n#{second_line(bottles)}\n"
   end
 
   private
